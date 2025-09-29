@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url("https://media.istockphoto.com/id/1782486642/vector/creative-three-people-3-icon-stock-illustration.jpg?s=612x612&w=0&k=20&c=DtFCV9o_ITaC0yh_ON8iyHdy4oABNWfxTIaIhBQRs-M=");
+    background-size: 270px;
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    z-index: 1;
+    position: relative;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition:opacity 0.5s ease-in-out;
+  }
+  
+  .login-box h2 {
+    background:linear-gradient(30deg,#c300ff,#000000,#c300ff);
+    background-clip: text;
+    color: transparent;
+    /* margin-bottom: 20px; */
+    /* color: #333; */
+  }
+
+  .login-box input {
+    width: 250px;
+    padding: 12px;
+    background:linear-gradient(30deg,#c300ff,#000000,#c300ff);
+    background-clip: text;
+    color: transparent;
+    /* border: 1px solid; */
+    /* margin: 10px 0; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  
+  .login-box button {
+    /* width: 350px; */
+    padding: 12px;
+    background-color: #000000;
+    color: #c300ff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+  }
+  
+  .login-box button:hover {
+    background-color: #c300ff;
+    color: white;
+  }
+  
+  .message {
+    /* margin-top: 15px; */
+    font-weight: bold;
+    position: absolute;
+    top: 6%;
+  }
+  
+  .success {
+    color: green;
+  }
+
+  .error {
+    color: red;
+  }
+  
+  .buttons{
+    display: flex;
+    gap: 10px;
+  }
+  .buttons>button{
+    width: 280px;
+  }
+  
+
+  .hidden{
+    /* transform:translateX(-500px); */
+    opacity: 0;
+  }

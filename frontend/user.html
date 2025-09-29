@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+    <header>
+        <img src="https://media.istockphoto.com/id/1782486642/vector/creative-three-people-3-icon-stock-illustration.jpg?s=612x612&w=0&k=20&c=DtFCV9o_ITaC0yh_ON8iyHdy4oABNWfxTIaIhBQRs-M="
+            height="55" alt="">
+        <button id="Logout" onclick="logout()">Logout</button>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <div class="appliance">
+                <div id="Bulb1-rect" class="rect" onclick="toggleApp(event,'Bulb1')">
+                    <div class="circle"></div>
+                </div>
+                <h2 class="name">Bulb1</h2>
+            </div>
+            <div class="appliance">
+                <div id="Bulb2-rect" class="rect" onclick="toggleApp(event,'Bulb2')">
+                    <div class="circle"></div>
+                </div>
+                <h2 class="name">Bulb2</h2>
+            </div>
+            <div class="appliance">
+                <div id="Fan-rect" class="rect" onclick="toggleApp(event,'Fan')">
+                    <div class="circle"></div>
+                </div>
+                <h2 class="name">Fan</h2>
+            </div>
+            <div class="appliance">
+                <div id="LED-rect" class="rect" onclick="toggleApp(event,'LED')">
+                    <div class="circle"></div>
+                </div>
+                <h2 class="name">LED</h2>
+            </div>
+            <div class="appliance">
+                <div id="Socket1-rect" class="rect" onclick="toggleApp(event,'Socket1')">
+                    <div class="circle"></div>
+                </div>
+                <h2 class="name">Socket1</h2>
+            </div>
+            <div class="appliance">
+                <div id="Socket2-rect" class="rect" onclick="toggleApp(event,'Socket2')">
+                    <div class="circle"></div>
+                </div>
+                <h2 class="name">Socket2</h2>
+            </div>
+            <div class="appliance">
+                <div id="Socket3-rect" class="rect" onclick="toggleApp(event,'Socket3')">
+                    <div class="circle"></div>
+                </div>
+                <h2 class="name">Socket3</h2>
+            </div>
+            <div class="appliance">
+                <div id="AC-rect" class="rect" onclick="toggleApp(event,'AC')">
+                    <div class="circle"></div>
+                </div>
+                <h2 class="name">AC</h2>
+            </div>
+            <div class="appliance">
+                <div id="TV-rect" class="rect" onclick="toggleApp(event,'TV')">
+                    <div class="circle"></div>
+                </div>
+                <h2 class="name">TV</h2>
+            </div>
+        </section>
+        <!-- <div class="updates">
+        </div> -->
+    </div>
+    <footer>
+        3X Automation
+    </footer>
+    <script src="admin.js"></script>
+</body>
+
+</html>
