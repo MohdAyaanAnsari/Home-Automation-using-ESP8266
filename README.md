@@ -1,5 +1,5 @@
 <div align="center">
-# 🏠 Home Automation System
+ 🏠 Home Automation System
  
 ### Control your home from anywhere in the world 🌍
  
@@ -15,11 +15,11 @@ A complete **Home Automation System** built with **ESP8266, Node.js, MySQL**, an
 [![Issues](https://img.shields.io/github/issues/your-username/home-automation)](https://github.com/your-username/home-automation/issues)
  
 <br>
-[✨ Features](#-features) •
-[🛠 Tech Stack](#-tech-stack) •
-[⚙️ Setup](#️-installation--setup) •
-[🚀 Usage](#-usage) •
-[🤝 Contributing](#-contributing)
+[✨ Features] •
+[🛠 Tech Stack] •
+[⚙️ Setup] •
+[🚀 Usage] •
+[🤝 Contributing]
  
 </div>
 
@@ -32,9 +32,7 @@ This project makes homes smarter by enabling **remote control of appliances over
 > The **ESP8266 Wi-Fi module** acts as a bridge between physical devices and the server, while the **Node.js backend** and **MySQL database** handle requests, logging, and data storage. A responsive web dashboard lets you toggle appliances, view live status, and review usage history — all from one place.
  
 <div align="center">
-| 📡 Connect | 🖥️ Control | 📊 Monitor |
-|:---:|:---:|:---:|
-| ESP8266 talks to your appliances | Dashboard sends commands instantly | MySQL logs every action with a timestamp |
+| 📡 Connect | 🖥️ Control | 📊 Monitor | ESP8266 talks to your appliances | Dashboard sends commands instantly | MySQL logs every action with a timestamp |
  
 </div>
 ---
@@ -43,13 +41,13 @@ This project makes homes smarter by enabling **remote control of appliances over
 <table>
 <tr>
 <td width="50%" valign="top">
-### 🎛️ Core Controls
+🎛️ Core Controls
 - 📡 **ESP8266 Integration** — controls appliances via Wi-Fi
 - 🌐 **Web Dashboard** — clean, responsive UI for device management
 - ⏱ **Real-Time Status** — instantly see what's ON or OFF
 </td>
 <td width="50%" valign="top">
-### 🔐 Reliability & Security
+🔐 Reliability & Security
 - 📊 **Database Logging** — MySQL stores activity with date & time
 - 👥 **User Management** — supports multiple users
 - 🔒 **JWT-Ready Auth** — secure login for the dashboard
@@ -58,7 +56,7 @@ This project makes homes smarter by enabling **remote control of appliances over
 </tr>
 </table>
 ---
-## 🛠 Tech Stack
+🛠 Tech Stack
  
 <div align="center">
 | Layer | Technology |
