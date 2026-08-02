@@ -58,3 +58,51 @@ This project makes homes smarter by enabling **remote control of appliances over
 </tr>
 </table>
 ---
+## 🛠 Tech Stack
+ 
+<div align="center">
+| Layer | Technology |
+|---|---|
+| 🔌 **Hardware** | ESP8266 Wi-Fi Module |
+| 🎨 **Frontend** | HTML, CSS, JavaScript |
+| ⚙️ **Backend** | Node.js + Express |
+| 🗄️ **Database** | MySQL |
+| 📶 **Communication** | HTTP (ESP8266 ⇆ Node.js Server) |
+ 
+</div>
+---
+ 
+## 🏗 System Architecture
+ 
+```mermaid
+flowchart LR
+    A[👤 User Dashboard] <--> B[⚙️ Node.js + Express Server]
+    B <--> C[(🗄️ MySQL Database)]
+    B <--> D[📡 ESP8266 Module]
+    D <--> E[🔌 Appliances]
+```
+ 
+<details>
+<summary><b>📄 View as plain-text diagram</b></summary>
+```
+[User Dashboard] ⇆ [Node.js + Express Server] ⇆ [MySQL Database]
+                                   ⇅
+                             [ESP8266 Module] ⇆ [Appliances]
+```
+ 
+</details>
+---
+ 
+## 📂 Project Structure
+ 
+```
+home-automation/
+│
+├── backend/        # Node.js + Express server files
+├── frontend/       # HTML, CSS, JavaScript for dashboard
+├── database/       # MySQL database scripts
+├── esp8266/        # ESP8266 Arduino code
+└── README.md       # Project documentation
+```
+ 
+---
