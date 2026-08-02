@@ -106,3 +106,57 @@ home-automation/
 ```
  
 ---
+## ⚙️ Installation & Setup
+ 
+<details open>
+<summary><b>🔧 Prerequisites</b></summary>
+- ✅ Node.js & npm installed
+- ✅ MySQL installed and configured
+- ✅ Arduino IDE for ESP8266
+</details>
+<details open>
+<summary><b>🖥️ Step-by-step setup</b></summary>
+**1️⃣ Clone the repository**
+```bash
+git clone https://github.com/your-username/home-automation.git
+cd home-automation
+```
+ 
+**2️⃣ Backend setup**
+```bash
+cd backend
+npm install
+npm start
+```
+ 
+**3️⃣ Database setup**
+- Import the MySQL script from the `database/` folder
+- Update database credentials in `backend/config.js`
+**4️⃣ ESP8266 setup**
+- Open the `esp8266/` code in Arduino IDE
+- Update Wi-Fi credentials and server IP
+- Upload the code to your ESP8266 board
+**5️⃣ Frontend setup**
+- Open `frontend/index.html` in your browser
+- The dashboard should now connect with your backend 🎉
+</details>
+---
+ 
+## 🚀 Usage
+ 
+```
+1. Open the web dashboard in your browser
+2. Toggle appliances ON/OFF with a single click
+3. Watch real-time device status update instantly
+4. Browse logs to review past activity
+```
+ 
+---
+ 
+## 🔮 Future Enhancements
+ 
+- [ ] 📱 Native **mobile app** for easier control
+- [ ] ⚡ **WebSocket** support for true real-time communication
+- [ ] 🗣️ **Google Assistant / Alexa** voice control integration
+- [ ] 🔋 **Energy monitoring** for connected appliances
+---
