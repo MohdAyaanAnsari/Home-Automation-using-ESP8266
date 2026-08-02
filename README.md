@@ -38,3 +38,23 @@ This project makes homes smarter by enabling **remote control of appliances over
  
 </div>
 ---
+## ✨ Features
+ 
+<table>
+<tr>
+<td width="50%" valign="top">
+### 🎛️ Core Controls
+- 📡 **ESP8266 Integration** — controls appliances via Wi-Fi
+- 🌐 **Web Dashboard** — clean, responsive UI for device management
+- ⏱ **Real-Time Status** — instantly see what's ON or OFF
+</td>
+<td width="50%" valign="top">
+### 🔐 Reliability & Security
+- 📊 **Database Logging** — MySQL stores activity with date & time
+- 👥 **User Management** — supports multiple users
+- 🔒 **JWT-Ready Auth** — secure login for the dashboard
+- 📧 **Email Notifications** — optional alerts for key events
+</td>
+</tr>
+</table>
+---
