@@ -22,3 +22,19 @@ A complete **Home Automation System** built with **ESP8266, Node.js, MySQL**, an
 [🤝 Contributing](#-contributing)
  
 </div>
+
+---
+ 
+## 🔎 Introduction
+ 
+This project makes homes smarter by enabling **remote control of appliances over the internet**.
+ 
+> The **ESP8266 Wi-Fi module** acts as a bridge between physical devices and the server, while the **Node.js backend** and **MySQL database** handle requests, logging, and data storage. A responsive web dashboard lets you toggle appliances, view live status, and review usage history — all from one place.
+ 
+<div align="center">
+| 📡 Connect | 🖥️ Control | 📊 Monitor |
+|:---:|:---:|:---:|
+| ESP8266 talks to your appliances | Dashboard sends commands instantly | MySQL logs every action with a timestamp |
+ 
+</div>
+---
